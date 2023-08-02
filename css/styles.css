@@ -1,11 +1,81 @@
+:root {
+  --slate:#434455;
+  --navyblue:#2e2f42;
+  --iris:#4d5ae5;
+  --white:#FFFFFF);
+  --cloud:#F4F4FD;
+
+}
+
 body {
-  font-family: Roboto, Raleway, sans-serif;
+  color: var(--slate) ;
+  background-color: var(--white);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  
 }
 
 .link {
   text-decoration: none;
+  color:currentColor
 }
 
 .list {
   list-style: none;
+}
+
+.logo {
+font-family: Raleway;
+font-weight: 800;
+font-size: 18px;
+line-height: 1,17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+flex: none;
+  color: var(--iris);
+}
+
+.logo-dark {
+  color: var(--navyblue);
+}
+.logo-light {
+  color: var(--cloud)
+}
+
+.header {
+}
+.header-nav {
+font-weight: 500;
+font-size: 18px;
+line-height: 1,5;
+letter-spacing: 0.02em;
+}
+
+.adress{
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1,5;
+letter-spacing: 0.02em;
+}
+
+.hero {
+
+  background-color: var(--navyblue);
+}
+.hero-title{
+  color: var(--white);
+}
+
+.hero-title-btn{
+  color: var(--white);
+background-color: var(--iris);
+}
+
+.footer {
+  background-color: var(--navyblue);
+}
+.footer-text {
+  color: var(--cloud);
 }
