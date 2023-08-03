@@ -102,6 +102,8 @@ body {
 }
 
 .list-btn {
+  font-family: inherit;
+  cursor: pointer;
   color: var(--iris);
   background-color: var(--cloud);
   font-weight: 500;
