@@ -9,6 +9,7 @@
 
 body {
   color: var(--slate);
+  background-color: var(--white);
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-size: 16px;
@@ -34,7 +35,7 @@ body {
   font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1, 17;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   flex: none;
@@ -50,14 +51,14 @@ body {
 .header-nav {
   font-weight: 500;
   font-size: 18px;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
 .header-nav-list {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navyblue);
 }
@@ -82,6 +83,10 @@ body {
 .hero-title-btn {
   color: var(--white);
   background-color: var(--iris);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .button {
@@ -100,14 +105,25 @@ body {
   background-color: var(--cloud);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.04em;
+}
+.advantages-list {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
+}
+.advantages-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .section-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1, 11;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -124,7 +140,7 @@ body {
 .team-member {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1, 2;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--navyblue);
@@ -132,7 +148,7 @@ body {
 .team-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--slate);
@@ -141,12 +157,12 @@ body {
 .project-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1, 2;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navyblue);
 }
 .project-text {
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
 }
@@ -156,6 +172,6 @@ body {
 }
 .footer-text {
   color: var(--cloud);
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
