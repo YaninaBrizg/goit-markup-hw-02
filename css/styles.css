@@ -113,9 +113,11 @@ body {
 }
 .list-btn:hover {
   color: var(--white);
+  background-color: var(--ocean);
 }
 .list-btn:focus {
   color: var(--white);
+  background-color: var(--ocean);
 }
 
 .advantages-list {
