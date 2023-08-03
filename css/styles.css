@@ -1,24 +1,29 @@
 :root {
-  --slate:#434455;
-  --navyblue:#2e2f42;
-  --iris:#4d5ae5;
-  --white:#FFFFFF);
-  --cloud:#F4F4FD;
-
+  --slate: #434455;
+  --navyblue: #2e2f42;
+  --iris: #4d5ae5;
+  --white: #ffffff;
+  --cloud: #f4f4fd;
+  --ocean: #404bbf;
 }
 
 body {
-  color: var(--slate) ;
-  background-color: var(--white);
+  color: var(--slate);
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-size: 16px;
-  
+  font-weight: 400;
 }
 
 .link {
   text-decoration: none;
-  color:currentColor
+  color: currentColor;
+}
+.link:hover {
+  color: var(--ocean);
+}
+.link:focus {
+  color: var(--ocean);
 }
 
 .list {
@@ -26,51 +31,124 @@ body {
 }
 
 .logo {
-font-family: Raleway;
-font-weight: 800;
-font-size: 18px;
-line-height: 1,17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-flex: none;
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1, 17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  flex: none;
   color: var(--iris);
 }
-
 .logo-dark {
   color: var(--navyblue);
 }
 .logo-light {
-  color: var(--cloud)
+  color: var(--cloud);
 }
 
-.header {
-}
 .header-nav {
-font-weight: 500;
-font-size: 18px;
-line-height: 1,5;
-letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
 }
 
-.adress{
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1,5;
-letter-spacing: 0.02em;
+.header-nav-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
+}
+
+.adress {
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .hero {
-
+  color: var(--white);
   background-color: var(--navyblue);
 }
-.hero-title{
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.hero-title-btn {
   color: var(--white);
+  background-color: var(--iris);
 }
 
-.hero-title-btn{
-  color: var(--white);
-background-color: var(--iris);
+.button {
+  font-family: inherit;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: var(--ocean);
+}
+.button:focus {
+  background-color: var(--ocean);
+}
+
+.list-btn {
+  color: var(--iris);
+  background-color: var(--cloud);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.04em;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navyblue);
+  background-color: var(--white);
+}
+
+.team {
+  background-color: var(--cloud);
+}
+.team-list {
+  background-color: var(--white);
+}
+.team-member {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1, 2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
+}
+.team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+.project-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1, 2;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
+}
+.project-text {
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
 }
 
 .footer {
@@ -78,4 +156,6 @@ background-color: var(--iris);
 }
 .footer-text {
   color: var(--cloud);
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
 }
